@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-
 class App extends Component {
   render() {
     return (
       <div className="App">
 <div id="timeline">
     <ul id="dates">
-      <li><a href="#1900">July</a></li>
-      <li><a href="#1930">1930</a></li>
-      <li><a href="#1944">1944</a></li>
-      <li><a href="#1950">1950</a></li>
+      <li><a href="#1900">Week 1</a></li>
+      <li><a href="#1930">Week 2</a></li>
+      <li><a href="#1944">Week 3</a></li>
+      <li><a href="#1950">Week 4</a></li>
       <li><a href="#1971">1971</a></li>
       <li><a href="#1977">1977</a></li>
       <li><a href="#1989">1989</a></li>
@@ -20,10 +19,10 @@ class App extends Component {
     </ul>
     <ul id="issues">
       <li id="1900">
-        <img src="images/11.jpg" width="50" height="50" />
-        <p>Unfortunately, I was diagnosed with leukaemia today :(. I don't know anyone who is in the same boat as me. Would appreciate any help and advice.</p>
-        <img src="images/1.png" width="50" height="50" />
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+        <img src="images/11.jpg" width="100" height="100" />
+        <p>Unfortunately, I was diagnosed with leukaemia today :(. I don't know anyone who is in the same boat as me. Would appreciate any help and advice. </p>
+        <img src="images/1.png" width="100" height="100" />
+        <p>  .</p>
       </li>
       <li id="1930">
         <img src="images/2.png" width="256" height="256" />
