@@ -4,26 +4,26 @@
 }
 
 body {
-  background: #F0FFFF;
+  background: #222;
   font-family: Georgia, serif;
-  color: #008080;
+  color: #9932cc;
   font-size: 14px;
 }
 
 a {
-  color: #191970;
+  color: #ffffcc;
   text-decoration: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
   a:hover,
   a.selected {
-    color: #000;
+    color: #ffcc00;
   }
 
 h1,h2,h4,h5,h6 {
   text-align: center;
-  color: #000;
+  color: #ccc;
   text-shadow: #000 1px 1px 2px;
   margin-bottom: 5px;
 }
@@ -42,7 +42,7 @@ h1,h2,h4,h5,h6 {
     width: 800px;
     height: 350px;
     overflow: hidden;
-    margin: 30px auto;
+    margin: 100px auto;
     position: relative;
     background: url('../images/dot.gif') left 45px repeat-x;
   }
@@ -56,7 +56,7 @@ h1,h2,h4,h5,h6 {
         float: left;
         width: 100px;
         height: 50px;
-        font-size: 14px;
+        font-size: 24px;
         text-align: center;
         background: url('../images/biggerdot.png') center bottom no-repeat;
       }
@@ -65,16 +65,16 @@ h1,h2,h4,h5,h6 {
           padding-bottom: 10px;
         }
         #dates .selected {
-              font-size: 16px;
+              font-size: 24px;
         }
     
     #issues {
-      width: 800px;
+      width: 700px;
       height: 350px;
       overflow: hidden;
     } 
       #issues li {
-        width: 800px;
+        width: 700px;
         height: 350px;
         list-style: none;
         float: left;
@@ -85,16 +85,18 @@ h1,h2,h4,h5,h6 {
         }
         #issues li img {
           float: left;
-          margin: 10px 30px 10px 50px;
+          margin: 30px 30px 10px 50px;
           background: transparent;
-        (startColorstr=#FFFFF0,endColorstr=#FFFFF0)"; /* IE 8 */   
-                
+/*          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+          /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */
           zoom: 1;
           -webkit-transition: all 2s ease-in-out;
           transition: all 2s ease-in-out;
+          -webkit-transform: scale(0.7,0.7);
+          transform: scale(0.7,0.7);
         }
         #issues li h1 {
-          color: #000;
+          color: #fff;
           font-size: 48px;
           margin: 20px 0;
           text-shadow: #000 1px 1px 2px;
@@ -102,9 +104,11 @@ h1,h2,h4,h5,h6 {
         #issues li p {
           font-size: 14px;
           margin-right: 70px;
+          margin-top: 20px;
           font-weight: normal;
-          line-height: 22px;
+          line-height: 20px;
           text-shadow: #000 1px 1px 2px;
+          background-color: #fff
         }
     
     #grad_left,
@@ -114,6 +118,14 @@ h1,h2,h4,h5,h6 {
       position: absolute;
       top: 0;
     }
+      #grad_left {
+            left: 0;
+            /*background: url('../images/grad_left.png') repeat-y;*/
+      }
+      #grad_right {
+            right: 0;
+            background: url('../images/grad_right.png') repeat-y;
+      }
     
     #next,
     #prev {
