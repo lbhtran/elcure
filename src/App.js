@@ -46,16 +46,22 @@ class App extends Component {
             <p>Life must go on! Went to the Wimbledon</p>
           </li>
           <li id="#day4">
+          </li>
+          <li id="#day5">
+          </li>
+          <li id="#day6">
           <img src="images/5.png" width="100" height="100" />
             <p>My activities on day 4</p>
         <img src="images/1.png" width="100" height="100" />
             <p>Things to keep in mind when going on a holiday</p>
           </li>
-          <li id="#day5">
+          <li id="#day7">
             <img src="images/4.png" width="100" height="100" />
             <p>My diet plan</p>
           </li>
-          <li id="#day6">
+          <li id="#day8">
+          </li>
+          <li id="#day9">
             <img src="images/5.png" width="100" height="100" />
             <p>Life must go on! My first night out after being diagnosed</p>
           </li>
