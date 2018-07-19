@@ -22,38 +22,39 @@ class App extends Component {
             <img src="images/11.jpg" width="100" height="100" />
             <p>Unfortunately, I was diagnosed with leukaemia today :(.</p>
             <img src="images/1.PNG" width="100" height="100" />
-            <p>  .</p>
+            <p> The start of leukaemia!</p>
           </li>
           <li id="#day1">
             <img src="images/2.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
+            <p>Informing HR about my illness</p>
+        <img src="images/1.png" width="100" height="100" />
+            <p>My 2nd day as a leukaemia patient!</p>
           </li>
           <li id="#day2">
             <img src="images/3.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
+            <p>Start of treatment!</p>
+            <img src="images/4.png" width="100" height="100" />
+            <p>Breaking the news about illness to my friends</p>
           </li>
           <li id="#day3">
             <img src="images/4.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
+            <p>Life must go on! Went to the Wimbledon</p>
           </li>
           <li id="#day4">
+          <img src="images/5.png" width="100" height="100" />
+            <p>My activities on day 4</p>
+        <img src="images/1.png" width="100" height="100" />
+            <p>Things to keep in mind when going on a holiday</p>
           </li>
           <li id="#day5">
-            <img src="images/5.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
+            <img src="images/4.png" width="100" height="100" />
+            <p>My diet plan</p>
           </li>
           <li id="#day6">
-            <img src="images/6.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
+            <img src="images/5.png" width="100" height="100" />
+            <p>Life must go on! My first night out after being diagnosed</p>
           </li>
-          <li id="#day7">
-          </li>
-          <li id="#day8">
-          </li>
-          <li id="#day9">
-            <img src="images/8.png" width="100" height="100" />
-            <p>Donec semper quam scelerisque tortor dictum gravida.</p>
-          </li>
+         
       </ul>
       <div id="grad_left"></div>
       <div id="grad_right"></div>
