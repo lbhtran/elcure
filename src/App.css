@@ -31,8 +31,8 @@
 
 body {
   background: #fcf3f0;
-  font-family: monospace, lucida console;
-  color: #008080;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #59595b;
   font-size: 14px;
 }
 
@@ -50,7 +50,7 @@ a {
 h1,h2,h4,h5,h6 {
   text-align: center;
   color: #000;
-  text-shadow: #000 1px 1px 2px;
+  /*text-shadow: #000 1px 1px 2px;*/
   margin-bottom: 5px;
 }
   h1 {
@@ -67,9 +67,9 @@ h1,h2,h4,h5,h6 {
 
   #timeline {
     width: 800px;
-    height: 350px;
+    height: 800px;
     overflow: hidden;
-    margin: 50px 0px 50px 0px;
+    margin: 80px 0px 50px 0px;
     position: relative;
     background: url('images/dot.gif') left 50px repeat-x;
   }
@@ -83,16 +83,18 @@ h1,h2,h4,h5,h6 {
         float: left;
         width: 150px;
         height: 65px;
-        font-size: 25px;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 18px;
         text-align: center;
         background: url('images/smallerdot.png') center bottom no-repeat;
       }
       #dates li .selected {
         list-style: none;
         float: left;
-        width: 100px;
+        width: 150px;
         height: 75px;
-        font-size: 16px;
+        font-family: "Lucida Console", Monaco, monospace;
+        font-size: 20px;
         text-align: center;
         background: url('images/biggerdot.png') center bottom no-repeat;
       }
@@ -105,12 +107,13 @@ h1,h2,h4,h5,h6 {
         }
     
     #issues {
-      width: 800px;
+      width: 600px;
       height: 350px;
       overflow: hidden;
     } 
       #issues li {
-        width: 800px;
+        width: 600px;
+        margin-left:20px;
         height: 350px;
         list-style: none;
         float: left;
@@ -121,10 +124,12 @@ h1,h2,h4,h5,h6 {
         }
         #issues li img {
           float: left;
-          margin: 32px 30px 10px 50px;
+          margin: 30px 30px 10px 20px;
           background: transparent;
           border-radius: 50%;
-        
+          border-color: #6ccbf6;
+          border-style: solid;
+          border-width: 5px;
                 
           zoom: 1;
           -webkit-transition: all 2s ease-in-out;
@@ -133,23 +138,25 @@ h1,h2,h4,h5,h6 {
         #issues li h1 {
           color: #000;
           font-size: 48px;
-          margin: 20px 0;
-          text-shadow: #000 1px 1px 2px;
+          margin: 10px 0;
+          /*text-shadow: #000 1px 1px 2px;*/
         }
         #issues li p {
-          font-size: 18px;
+          font-size: 20px;
           margin-top: 20px;
           margin-right: 70px;
           padding-top: 20px;
           padding-right: 20px;
-          font-weight: normal;
-          line-height: 22px;
-          text-shadow: #000 1px 1px 2px;
+          font-weight: lighter;
+/*          line-height: 22px;*/
+          text-align:left;
+          /*text-shadow: #000 1px 1px 2px;*/
           background-color: #fff;
           height:110px;
-          border-color:#000;
+          box-shadow: 5px 5px 10px #a3a3a8;
+/*          border-color:#000;
           border-style: solid;
-          border-width: medium;
+          border-width: medium;*/
           border-radius: 50px 20px;
         }
     
