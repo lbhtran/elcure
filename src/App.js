@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <header className="App-header">
+        Your Timeline
+        </header>
       <div id="timeline">
         <ul id="dates">
           <li><a href="#day0">Day 0</a></li>

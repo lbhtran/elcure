@@ -12,7 +12,12 @@
 }
 
 .App-header {
-  height: 20px;
+  background-color: #8bc4c0;
+  width: 800px;
+  height: 40px;
+  color: white;
+  padding-top: 15px;
+  font-size: 25px;
 }
 
 .App-intro {
@@ -74,7 +79,7 @@ h1,h2,h4,h5,h6 {
     background: url('images/dot.gif') left 50px repeat-x;
   }
     #dates {
-      width: 800px;
+      width: 0px;
       height: 150px;
       overflow: hidden;
     }
@@ -107,12 +112,12 @@ h1,h2,h4,h5,h6 {
         }
     
     #issues {
-      width: 600px;
+      width: 800px;
       height: 350px;
       overflow: hidden;
     } 
       #issues li {
-        width: 600px;
+        width: 750px;
         margin-left:20px;
         height: 350px;
         list-style: none;
@@ -144,7 +149,7 @@ h1,h2,h4,h5,h6 {
         #issues li p {
           font-size: 20px;
           margin-top: 20px;
-          margin-right: 70px;
+          margin-right: 20px;
           padding-top: 20px;
           padding-right: 20px;
           font-weight: lighter;
@@ -160,13 +165,13 @@ h1,h2,h4,h5,h6 {
           border-radius: 50px 20px;
         }
     
-    #grad_left,
+/*    #grad_left,
     #grad_right {
       width: 100px;
       height: 350px;
       position: absolute;
       top: 0;
-    }
+    }*/
     
     #next,
     #prev {
