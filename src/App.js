@@ -20,8 +20,8 @@ class App extends Component {
     </ul>
     <ul id="issues">
       <li id="1900">
-        <img src="images/1.png" width="50" height="50" />
-        <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
+        <img src="images/11.jpg" width="50" height="50" />
+        <p>Unfortunately, I was diagnosed with leukaemia today :(. I don't know anyone who is in the same boat as me. Would appreciate any help and advice.</p>
         <img src="images/1.png" width="50" height="50" />
         <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
       </li>
@@ -70,13 +70,13 @@ class App extends Component {
         <h1>2011</h1>
         <p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit. Proin metus odio, aliquam eget molestie nec, gravida ut sapien. Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent eget neque eu eros interdum malesuada non vel leo. Sed fringilla porta ligula.</p>
       </li>
-    </ul>
-    <div id="grad_left"></div>
-    <div id="grad_right"></div>
-    <a href="#" id="next">+</a>
-    <a href="#" id="prev">-</a>
-  </div>
+      </ul>
+      <div id="grad_left"></div>
+      <div id="grad_right"></div>
+      <a href="#" id="next">+</a>
+      <a href="#" id="prev">-</a>
       </div>
+    </div>
     );
   }
 }
