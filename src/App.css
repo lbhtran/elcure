@@ -4,18 +4,15 @@
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: white;
   height: 0px;
-  padding: 0px;
-  color: white;
 }
 
 .App-title {
   font-size: 1.5em;
+}
+
+.App-header {
+  height: 20px;
 }
 
 .App-intro {
@@ -71,30 +68,40 @@ h1,h2,h4,h5,h6 {
     width: 800px;
     height: 350px;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 50px 0px 50px 0px;
     position: relative;
-    background: url('images/dot.gif') left 45px repeat-x;
+    background: url('images/dot.gif') left 50px repeat-x;
   }
     #dates {
       width: 800px;
-      height: 60px;
+      height: 150px;
       overflow: hidden;
     }
       #dates li {
         list-style: none;
         float: left;
         width: 100px;
-        height: 50px;
+        height: 65px;
         font-size: 14px;
+        text-align: center;
+        background: url('images/smallerdot.png') center bottom no-repeat;
+      }
+      #dates li .selected {
+        list-style: none;
+        float: left;
+        width: 100px;
+        height: 75px;
+        font-size: 16px;
         text-align: center;
         background: url('images/biggerdot.png') center bottom no-repeat;
       }
         #dates a {
-          line-height: 38px;
+          line-height: 20px;
           padding-bottom: 10px;
         }
         #dates .selected {
               font-size: 16px;
+              /*background: url('images/biggerdot.png') center bottom no-repeat;*/
         }
     
     #issues {
@@ -131,10 +138,12 @@ h1,h2,h4,h5,h6 {
         #issues li p {
           font-size: 14px;
           margin-right: 70px;
+          margin-top: 20px;
           font-weight: normal;
           line-height: 22px;
           text-shadow: #000 1px 1px 2px;
           background-color: #fff;
+
         }
     
     #grad_left,
