@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { Link } from 'react-router';
 import './App.css';
 
 
@@ -7,9 +8,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
+          <img src="images/logo.png" className="App-logo"/>
         Your Timeline
         </header>
-      <div id="timeline">
+        <div id="timeline">
         <ul id="dates">
           <li><a href="#day0">Day 0</a></li>
           <li><a href="#day1">Day 1</a></li>
@@ -24,6 +26,11 @@ class App extends Component {
         </ul>
         <ul id="issues">
           <li id="#day0">
+            <p><form>
+              <textarea placeholder="How are you feeling today..."></textarea>
+              <input type="submit" value="Submit" />
+
+            </form></p>
             <img src="images/11.jpg" width="100" height="100" />
             <p>Unfortunately, I was diagnosed with leukaemia today :(.</p>
             <img src="images/1.PNG" width="100" height="100" />
@@ -72,7 +79,11 @@ class App extends Component {
       <a href="#" id="next">+</a>
       <a href="#" id="prev">-</a>
       </div>
+
+      <footer className="App-footer"></footer>
+
     </div>
+    // {this.props.children}
     );
   }
 }
